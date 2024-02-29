@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <style>
+      /* [class^="col"] {
+        background-color: rgba(255, 255, 255, 0.219);
+      } */
+        .pembelajaran {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 30px;
+            grid-row-gap: 30px;
+        } 
+        
+        .kategori {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            grid-column-gap: 35px;
+            grid-row-gap: 35px;
+        }
+        .event {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 30px;
+            grid-row-gap: 0px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand bg-body-white">
+        <div class="container py-2">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/logo-ligasmk-dark.png" alt="" />
+          </a>
+          <div class="navbar" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="col d-flex">
+                <li class="nav-item d-flex me-4">
+                  <a class="nav-link" href="#">Home</a>
+                  <img src="./assets/icon-arrow-bottom.svg " alt="">
+                </li>
+                <li class="nav-item d-flex me-4">
+                  <a class="nav-link" href="#">About Us</a>
+                  <img src="./assets/icon-arrow-bottom.svg " alt="">
+                </li>
+                <li class="nav-item d-flex me-4">
+                  <a class="nav-link" href="#">Kelas
+                    <img src="./assets/icon-arrow-bottom.svg " alt="">
+                  </a>
+                </li>
+                <li class="nav-item d-flex me-4">
+                  <a class="nav-link" href="#">Blog</a>
+                  <img src="./assets/icon-arrow-bottom.svg " alt="">
+                </li>
+                <li class="nav-item d-flex">
+                  <a class="nav-link" href="#">Kontak</a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container bg-body-tertiary pb-5 pt-5">
+      <div class="row">
+        <div class="col" style="width: 100px;">
+          <p class="h1 fw-bold" style="width: 400px; font-size: 50px;">
+            Bergabunglah dengan jutaan orang dan belajar hal baru
+          </p>
+          <p style="width: 350px;">
+            Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.
+          </p>
+          <p class="btn rounded-1 text-white d-flex align-items-center" style="width: 180px; font-size: 10px; background-color: blue;">
+            <span>Mulai belajar</span>
+            <img src="./assets/icon-arrowlong-right.svg" alt="" class="" style="margin-left: 70px;">
+          </p>
+        </div>
+        <div class="col" style="margin-left: 300px;">
+          <img src="./assets/shape-diagram.png" alt="" style="height: 450px;">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row bg-warning py-4">
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="./assets/icon-online-education.svg" alt="" class="me-3" style="height: 50px;">
+          <p class="fw-bold pt-3" style="width: 150px;">
+            Membangun Karir
+            <span style="font-size: 10px;">Semua yang butuh kerja</span>
+          </p>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="./assets/icon-globe-handphone.svg" alt="" class="me-3" style="height: 50px;">
+          <p class="fw-bold pt-3" style="width: 150px;">
+            Cari Materi Belajar
+          <span style="font-size: 10px;">Seberapa pengetahuan kamu</span></p>
+        </div>
+        <div class="col d-flex justify-content-center align-items-center">
+          <img src="./assets/icon-online-education-laptop.svg" alt="" class="me-3" style="height: 50px;">
+          <p class="fw-bold pt-3" style="width: 150px;">
+            Kuasai Skill Baru            
+            <span style="font-size: 10px;">Fokus apa yang dibutuhkan</span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-5">
+      <nav class="navbar navbar-expand"> 
+        <div class="bg-warning position-absolute" style="margin-left: 160px; margin-top: 15px; padding-top: 9px; padding-left: 90px;"></div>
+        <div class="col h4 fw-bold position-relative">Pembelajaran populer</div>
+        <div class="col d-flex fw-bold" style="font-size: 11px;">
+          <div class="col d-flex justify-content-center shadow rounded-1 m-1 py-2 g bg-white">Javascript</div>
+          <div class="col d-flex justify-content-center text-secondary m-1 py-2">Python</div>
+          <div class="col d-flex justify-content-center text-secondary m-1 py-2">Web Development</div>
+          <div class="col d-flex justify-content-center text-secondary m-1 py-2">Art & Design</div>
+          <div class="col d-flex justify-content-center text-secondary m-1 py-2">Business</div>
+        </div>
+      </nav>
+      <div class="pembelajaran pb-5 pt-5">
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-1.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-orange.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-2.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-old-blue.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-3.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-pink.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-4.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-lightblue.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-5.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-orange.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-6.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-old-blue.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-7.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-pink.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+        <div class="card" style="width: 100%;">
+          <img src="./assets/course-8.png" class="card-img-top" alt="...">
+          <div class="card-img-overlay">
+            <img src="./assets/new-lightblue.png" alt="">
+          </div>
+          <div class="card-body pb-0" style="padding-left: 40px; padding-right: 40px;">
+            <p class="fw-bold mb-1" style="font-size: 13px; color: blueviolet;">Alen Mask</p>
+            <p class="fw-bold" style="font-size: 19px;">Why Learn Intermediate SQL for Marketers?</p>
+          </div>
+          <div class="card-body d-flex align-items-center" style="font-size: 13px; padding-left: 40px; padding-right: 40px;">
+            <img src="./assets/icon-hamburger.svg" alt="">
+            <span class="card-link ms-1 me-3">Beginner</span>
+            <img src="./assets/icon-copy.svg" alt="">
+            <span class="card-link ms-1 me-2">3 Lessons</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row py-5 bg-warning-subtle d-flex align-items-center">
+        <div class="col">
+          <img src="./assets/membership-image.png" alt="" style="height: 200px;">
+        </div>
+        <div class="col">
+          <p class="fw-bold font-monospace" style="font-size: 37px; width: 600px; margin-left: 10px;">Dapatkan Membership Pro GRATIS untuk kelas kamu.</p>
+        </div>
+        <div class="col pt-3">
+          <p class="btn rounded-1 px-4" style="color: white; background-color: blue; font-size: 13px;">Lihat semua kelas
+            <img src="./assets/icon-arrowlong-right.svg" alt="" class="ms-3">
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 text-center">
+    <div class="bg-warning position-absolute" style="margin-left: 565px; margin-top: 27px; padding-top: 9px; padding-left: 110px;"></div>
+    <div class="col h4 fw-bold position-relative" style="font-size: 30px;">Kategori populer</div>
+  </div>
+  <div class="kategori container mt-5">
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-chemical.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Kimia</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-calendar.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Managemen</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-pencil-ruler.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Seni Budaya</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-briefcase.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Bisnis</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-science.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Astrologi</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-rocket.png" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">SEO</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-space.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Kosmologi</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+      <div class="col shadow-sm rounded-3 d-flex align-items-center px-3 py-2">
+        <div class="bg-secondary-subtle d-flex rounded-pill" style="height: 70px; width: 70px; padding: 13px;">
+          <img src="./assets/icon-microscope.svg" alt="">
+        </div>
+        <div class="col ms-3 pt-3">
+          <span class="fw-bold" style="font-size: 23px;">Biologi</span>
+          <p style="font-size: 15px;">2 Kelas</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 text-center">
+    <div class="fw-bold" style="font-size: 17px; color: blue;">Explore All Courses
+      <img src="./assets/icon-double-next.svg" alt="" class="ms-2">
+    </div>
+  </div>
+  <div class="container bg-body-tertiary" style="margin-top: 100px; padding-left: 90px; padding-right: 90px; padding-top: 100px; padding-bottom: 100px;">
+    <div class="row d-flex">
+      <div class="col">
+        <img src="./assets/business-image.png" alt="">
+      </div>
+      <div class="col">
+        <p class="fw-bold" style="width: 500px; font-size: 45px;">Tingkatkan skill tim Anda.</p>
+        <p class="mt-5" style="width: 430px;">Berikan tim Anda pengetahuan, pengalaman, dan keyakinan yang mereka butuhkan untuk mengatasi setiap masalah. Kami ingin menciptakan dunia di mana siapa pun dapat membangun sesuatu yang bermakna</p>
+        <p class="btn rounded-1 text-white d-flex align-items-center justify-content-center py-3 mt-4 fw-bold" style="width: 230px; font-size: 13px; background-color: blue;">
+          <span>Try for Business</span>
+          <img src="./assets/icon-arrowlong-right.svg" alt="" class="" style="margin-left: 30px;">
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 text-center">
+    <div class="bg-warning position-absolute" style="margin-left: 375px; margin-top: 27px; padding-top: 9px; padding-left: 283px;"></div>
+    <div class="col h4 fw-bold position-relative" style="font-size: 30px;">Event sedang berlangsung di dekatmu</div>
+  </div>
+  <div class="event container mt-5">
+    <div class="col" style="width: 100%;">
+      <img src="./assets/event-1.png" alt="" style="height: 250px;">
+      <div class="col d-flex mt-4">
+        <div class="col-2 border-end" style="width: 60px;">
+          <div class="col d-flex justify-content-center" style="height: 40px; width: 45px;">
+            <h2 style="font-size: 40px; color: blue;">21</h2>
+          </div>
+          <div class="col d-flex justify-content-center" style="height: 26px; width: 45px;">
+            <p>March</p>
+          </div>
+        </div>
+        <div class="col-8 d-flex align-items-center" style="height: 66px;">
+          <img src="./assets/icon-location.svg" alt="" class="ms-3" style="height: 20px;">
+          <p class="mt-3 ms-2">North Caroline United States</p>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <p class="fw-bold" style="font-size: 20px;">Linear Regression in Python: Introduction to Simple Linear</p>
+      </div>
+    </div>
+    <div class="col" style="width: 100%;">
+      <img src="./assets/event-2.png" alt="" style="height: 250px;">
+      <div class="col d-flex mt-4">
+        <div class="col-2 border-end" style="width: 60px;">
+          <div class="col d-flex justify-content-center" style="height: 40px; width: 45px;">
+            <h2 style="font-size: 40px; color: blue;">21</h2>
+          </div>
+          <div class="col d-flex justify-content-center" style="height: 26px; width: 45px;">
+            <p>March</p>
+          </div>
+        </div>
+        <div class="col-8 d-flex align-items-center" style="height: 66px;">
+          <img src="./assets/icon-location.svg" alt="" class="ms-3" style="height: 20px;">
+          <p class="mt-3 ms-2">North Caroline United States</p>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <p class="fw-bold" style="font-size: 20px;">Linear Regression in Python: Introduction to Simple Linear</p>
+      </div>
+    </div>
+    <div class="col" style="width: 100%;">
+      <img src="./assets/event-3.png" alt="" style="height: 250px;">
+      <div class="col d-flex mt-4">
+        <div class="col-2 border-end" style="width: 60px;">
+          <div class="col d-flex justify-content-center" style="height: 40px; width: 45px;">
+            <h2 style="font-size: 40px; color: blue;">21</h2>
+          </div>
+          <div class="col d-flex justify-content-center" style="height: 26px; width: 45px;">
+            <p>March</p>
+          </div>
+        </div>
+        <div class="col-8 d-flex align-items-center" style="height: 66px;">
+          <img src="./assets/icon-location.svg" alt="" class="ms-3" style="height: 20px;">
+          <p class="mt-3 ms-2">North Caroline United States</p>
+        </div>
+      </div>
+      <div class="col mt-4">
+        <p class="fw-bold" style="font-size: 20px;">Linear Regression in Python: Introduction to Simple Linear</p>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5 bg-dark" style="padding-top: 70px;">
+    <div class="row d-flex" style="padding-bottom: 70px;">  
+      <div class="col text-white" style="padding-right: 100px;">
+        <img src="./assets/logo-ligasmk-white.png" alt="">
+        <p class="pt-5" style="width: 300px;">Mengubah kehidupan, bisnis, dan bangsa melalui transformasi talenta di bidang teknologi digital.</p>
+        <div class="col d-flex pt-5 justify-content-evenly" style="width: 200px;">
+          <img src="./assets/icon-facebook-white.svg" alt="">
+          <img src="./assets/icon-twitter-white.svg" alt="">
+          <img src="./assets/icon-linkedin-white.svg" alt="">
+          <img src="./assets/icon-youtube-white.svg" alt="">
+        </div>
+      </div>
+      <div class="col text-white">
+        <p class="fw-bold fs-5">Resources</p>
+        <p>Build Career</p>
+        <p>Explore Subject</p>
+        <p>Gain a Skill</p>
+      </div>
+      <div class="col text-white">
+        <p class="fw-bold fs-5">Support</p>
+        <p>Web Development</p>
+        <p>Darta Science</p>
+        <p>Machine Learning</p>
+        <p>Developer Tools</p>
+        <p>Web Design</p>
+      </div>
+      <div class="col text-white">
+        <p class="fw-bold fs-5">Download Now</p>
+        <img src="./assets/logo-appstore.png" alt="" class="bg-white px-4 py-2 mb-3 rounded-3">
+        <img src="./assets/logo-googleplay.png" alt="" class="bg-white px-4 py-2 rounded-3">
+      </div>
+    </div>
+    <div class="row d-flex text-secondary">
+      <hr>
+      <div class="col px-0 d-flex">
+        <p class="col d-flex justify-content-center text-white py-2">Site Map</p>
+        <p class="col d-flex justify-content-center text-white py-2">Privacy Policy</p>
+        <p class="col d-flex justify-content-center text-white py-2">Terms & Conditions</p>
+        <p class="col d-flex justify-content-center text-white py-2">Contact Us</p>
+        <p class="col d-flex justify-content-center text-white py-2">Forums</p>
+        <p class="col d-flex justify-content-center text-white py-2" style="margin-left: 300px;">Liga SMK 2022</p>
+      </div>
+    </div>
+  </div>
+  <script src="./js/bootstrap.bundle.js"></script>
+  </body>
+</html>
